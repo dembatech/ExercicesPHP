@@ -1,0 +1,82 @@
+                                body {
+                                    margin: 0;
+                                    paddind: 0;
+                                    background-image: url(/Orca.jpg);
+                                }
+                                
+                                #menu {
+                                    display: grid;
+                                    background-color: white;
+                                    height: 95%;
+                                    width: 60%;
+                                }
+                                
+                                #header {
+                                    height: 6%;
+                                    display: grid;
+                                    width: 100%;
+                                    background-color: rgb(255, 196, 0);
+                                    align-items: center;
+                                    justify-content: center;
+                                }
+                                
+                                h1 {
+                                    color: white;
+                                    font-size: 1.5em;
+                                }
+                                
+                                #corp {
+                                    position: absolute;
+                                    left: 25%;
+                                    width: 50%;
+                                    height: 90vh;
+                                    background-color: rgb(255, 255, 255);
+                                }
+                                
+                                #exercice2 {
+                                    display: grid;
+                                    grid-template-rows: 1fr;
+                                    height: 5vh;
+                                    width: 5vw;
+                                    position: absolute;
+                                    left: 45%;
+                                    top: 15%;
+                                }
+                                
+                                #exercice1 p {
+                                    position: absolute;
+                                    top: 100%;
+                                }
+                                
+                                img {
+                                    height: 7vh;
+                                    width: 3vw;
+                                    cursor: pointer;
+                                }
+                                
+                                .bouttons {
+                                    display: grid;
+                                    grid-template-columns: auto auto;
+                                    grid-column-gap: 2em;
+                                    position: absolute;
+                                    left: 45%;
+                                    top: 90%;
+                                }
+                                
+                                button {
+                                    background-color: transparent;
+                                    height: 3em;
+                                    width: 5vw;
+                                    /* width: 17em; */
+                                    border-radius: 5px;
+                                    /* margin-left: 3em; */
+                                    justify-content: center;
+                                    align-items: center;
+                                    color: rgb(0, 0, 0);
+                                    font-weight: bold;
+                                    cursor: pointer;
+                                }
+                                
+                                button:hover {
+                                    background-color: rgb(255, 196, 0);
+                                }
